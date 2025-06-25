@@ -57,10 +57,12 @@ main {
 }
 
 .box img {
-  max-width: 100%;
+
+
   width: 300px;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  max-height: 300px;
+  object-fit: contain;
+
 }
 
