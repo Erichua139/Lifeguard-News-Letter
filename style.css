@@ -14,13 +14,6 @@ main {
   background: white;
   border-radius: 8px;
 }
-img {
-flex: 1 1 300px; 
-  
-max-width: 100%;
-  height: auto;
-}
-
 .container {
   width: 90%;
   margin: 20px auto;
@@ -62,3 +55,12 @@ max-width: 100%;
   flex: 1;
   gap: 10px;
 }
+
+.box img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
