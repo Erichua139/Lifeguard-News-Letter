@@ -15,7 +15,10 @@ main {
   border-radius: 8px;
 }
 img {
-flex: 1 1 300px; /* allows boxes to shrink and wrap */
+flex: 1 1 300px; 
+  
+max-width: 100%;
+  height: auto;
 }
 
 .container {
